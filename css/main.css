@@ -42,7 +42,14 @@ img {
 	background:rgba(0,0,0,.3);
 	padding:1.5em;
 	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight:bold;
 	position:relative;
+	margin-top:-6em;
+	color:rgba(255,255,255,1.00);
+}
+
+.grey-caps{
+	color:rgba(142,142,142,1.00);
 }
 
 .info{
