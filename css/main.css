@@ -23,7 +23,8 @@ html {
 body {
   margin:0;
   padding:0;
-  radius:8px;
+  border:thin solid rgba(160,160,160,1.00);
+  border-radius:8px;
 }
 
 img {
