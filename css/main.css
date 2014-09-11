@@ -24,15 +24,31 @@ body {
   margin:0;
   padding:0;
   border:thin solid rgba(160,160,160,1.00);
-  border-radius:8px;
+  border-radius:12px;
 }
 
 img {
   display:block;
   width:100%;
-}
+  position:relative;
+ }
 
-.wide{
+.fig{
 	padding:0;
 	margin:0;
+}
+
+.caption{
+	background:rgba(0,0,0,.3);
+	padding:1.5em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	position:relative;
+}
+
+.info{
+	display:inline-block;
+	width:30%;
+	border-left:thin solid rgba(160,160,160,1.00);
+	padding-left:0.5em;
+	margin-bottom:1.5em;
 }
